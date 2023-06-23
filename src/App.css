@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* background-color: black; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+  width: 9vw;
+  height: 7vh;
+  background-color: rgb(48, 57, 92);
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  border: 1px solid transparent;
+  margin: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn:hover{
+  background-color: rgb(41, 48, 78);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* border:2px solid white; */
+  width:35vw;
+  height:9vh;
+}
+.CodeMirror{
+  height: 50vh !important;
+}
+.CodeMirror-gutters{
+  background: #1d1e22 !important;
+}
+.CodeMirror-scroll{
+  background: #1d1e22 ;
+}
+.container{
+  background-color: black;
+  display: flex;
+  /* border: 2px solid white; */
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+  height: 30vh !important;
+  color: white !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main iframe{
+  background-color: rgb(195, 201, 228);
+  border: none;
+  color:white;
 }
