@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codepen-editor/static/css/main.0bd11239.css",
+    "main.js": "/codepen-editor/static/js/main.43bc667d.js",
+    "static/js/787.d184ee9a.chunk.js": "/codepen-editor/static/js/787.d184ee9a.chunk.js",
+    "static/media/1 copy.png": "/codepen-editor/static/media/1 copy.501786ad33f28d943ef1.png",
+    "index.html": "/codepen-editor/index.html",
+    "main.0bd11239.css.map": "/codepen-editor/static/css/main.0bd11239.css.map",
+    "main.43bc667d.js.map": "/codepen-editor/static/js/main.43bc667d.js.map",
+    "787.d184ee9a.chunk.js.map": "/codepen-editor/static/js/787.d184ee9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bd11239.css",
+    "static/js/main.43bc667d.js"
+  ]
+}
